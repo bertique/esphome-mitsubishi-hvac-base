@@ -1,0 +1,6 @@
+packages:
+  hvac: !include
+    file: hvac_base.yaml
+    vars:
+      node_name: "hvac-bedroom"
+      friendly_name: "AC Bedroom"
