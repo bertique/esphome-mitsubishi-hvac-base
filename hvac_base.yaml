@@ -33,6 +33,7 @@ status_led:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  min_auth_mode: WPA2
 
 # External component reference
 external_components:
