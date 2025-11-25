@@ -21,7 +21,7 @@ jobs:
       matrix:
         #### Modify below here to match your project ####
         file:
-          - weatherslim
+          - hvac_example
         #### Modify above here to match your project ####
 
         esphome-version:
