@@ -1,6 +1,6 @@
 substitutions:
-  my_ssid: !secret wifi_ssid
-  my_password: !secret wifi_password
+  my_ssid: "ChangeMe"
+  my_password: "ChangeMe"
 
 esphome:
   name: ${node_name}
