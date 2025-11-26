@@ -1,3 +1,7 @@
+substitutions:
+  my_ssid: !secret wifi_ssid
+  my_password: !secret wifi_password
+
 esphome:
   name: ${node_name}
   friendly_name: ${friendly_name}
@@ -31,8 +35,8 @@ status_led:
     inverted: true
 
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+  ssid: "${my_ssid}"
+  password: "${my_password}"
   min_auth_mode: WPA2
 
 # External component reference
