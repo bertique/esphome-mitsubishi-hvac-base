@@ -59,7 +59,7 @@ climate:
       temperature_step:
         target_temperature: 1
         current_temperature: 0.5
-    fahrenheit_compatibility: true
+    fahrenheit_compatibility: "standard"
     # Timeout and communication settings
     remote_temperature_timeout: 30min
     update_interval: 5s
