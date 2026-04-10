@@ -54,15 +54,15 @@ climate:
     name: None
     icon: mdi:air-conditioner
     visual:
-      min_temperature: 13 # Adjust to your unit's min temp. SmartSet units can go to 10C for heating
-      max_temperature: 33
+      min_temperature: 1 # Adjust to your unit's min temp. SmartSet units can go to 10C for heating
+      max_temperature: 40
       temperature_step:
         target_temperature: 1
         current_temperature: 0.5
     fahrenheit_compatibility: "standard"
     # Timeout and communication settings
     remote_temperature_timeout: 30min
-    update_interval: 5s
+    update_interval: 2s
     debounce_delay : 100ms
     # Various optional sensors, not all sensors are supported by all heatpumps
     compressor_frequency_sensor:
@@ -103,6 +103,7 @@ climate:
       name: Runtime Hours
       entity_category: diagnostic
       disabled_by_default: false
+    installer_mode: true
     hardware_settings:
       update_interval: 20s
       list:
