@@ -39,6 +39,8 @@ wifi:
   password: "${my_password}"
   min_auth_mode: WPA2
 
+captive_portal:
+
 # External component reference
 external_components:
   - source: github://echavet/MitsubishiCN105ESPHome
